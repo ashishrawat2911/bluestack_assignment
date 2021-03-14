@@ -1,0 +1,50 @@
+name: bluestack_assignment
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  retrofit: 1.3.4+1
+  json_annotation: 3.1.1
+  dio: 3.0.10
+  freezed: 0.12.7
+  flutter_bloc: 6.1.1
+  get_it: 5.0.6
+  get_it_mixin: 1.5.1
+  shared_preferences: 0.5.12+4
+  auto_route: 0.6.9
+  flutter_svg: 0.19.3
+  provider:
+  fluttertoast:
+  carousel_slider: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  retrofit_generator: 1.4.1+2
+  json_serializable: 3.5.1
+  build_runner: 1.11.1
+  auto_route_generator: 0.6.10
+
+
+flutter:
+
+  uses-material-design: true
+#  assets:
+#    - assets/images/
+
+#  fonts:
+#    - family: Rubik
+#      fonts:
+#        - asset: assets/fonts/rubik/Rubik-Medium.ttf
+#          weight: 400
+#        - asset: assets/fonts/rubik/Rubik-Medium.ttf
+#          weight: 500
+#        - asset: assets/fonts/rubik/Rubik-Bold.ttf
+#          weight: 700
